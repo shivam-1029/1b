@@ -1,0 +1,337 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "filter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "filter[1]",
+					"strict" : false
+				},
+				{
+					"name" : "color[0]",
+					"strict" : false
+				},
+				{
+					"name" : "color[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pulse_counter[15]",
+					"strict" : false
+				},
+				{
+					"name" : "enable_counter",
+					"strict" : false
+				},
+				{
+					"name" : "timer_500us[0]",
+					"strict" : false
+				},
+				{
+					"name" : "timer_500us[1]",
+					"strict" : false
+				},
+				{
+					"name" : "timer_500us[2]",
+					"strict" : false
+				},
+				{
+					"name" : "timer_500us[3]",
+					"strict" : false
+				},
+				{
+					"name" : "timer_500us[4]",
+					"strict" : false
+				},
+				{
+					"name" : "timer_500us[5]",
+					"strict" : false
+				},
+				{
+					"name" : "timer_500us[6]",
+					"strict" : false
+				},
+				{
+					"name" : "timer_500us[7]",
+					"strict" : false
+				},
+				{
+					"name" : "timer_500us[8]",
+					"strict" : false
+				},
+				{
+					"name" : "timer_500us[9]",
+					"strict" : false
+				},
+				{
+					"name" : "prev_enable_counter",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[0]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[1]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[2]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[3]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[4]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[5]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[6]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[7]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[8]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[9]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[10]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[11]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[12]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[13]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[14]",
+					"strict" : false
+				},
+				{
+					"name" : "red_freq[15]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[0]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[1]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[2]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[3]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[4]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[5]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[6]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[7]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[8]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[9]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[10]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[11]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[12]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[13]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[14]",
+					"strict" : false
+				},
+				{
+					"name" : "green_freq[15]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[0]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[1]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[2]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[3]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[4]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[5]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[6]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[7]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[8]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[9]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[10]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[11]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[12]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[13]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[14]",
+					"strict" : false
+				},
+				{
+					"name" : "blue_freq[15]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_1MHz",
+					"strict" : false
+				},
+				{
+					"name" : "cs_out",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

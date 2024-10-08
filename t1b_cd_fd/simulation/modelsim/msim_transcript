@@ -1,0 +1,56 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do t1b_cd_fd_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/code {C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/code/t1b_cd_fd.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:51:33 on Oct 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/code" C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/code/t1b_cd_fd.v 
+# -- Compiling module t1b_cd_fd
+# 
+# Top level modules:
+# 	t1b_cd_fd
+# End time: 16:51:33 on Oct 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/.test {C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/.test/tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:51:33 on Oct 08,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/.test" C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/.test/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:51:34 on Oct 08,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 16:51:34 on Oct 08,2024
+# Loading work.tb
+# Loading work.t1b_cd_fd
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 12, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut File: C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/.test/tb.v Line: 27
+# ** Warning: (vsim-3722) C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/.test/tb.v(27): [TFMPC] - Missing connection for port 'prev_enable_counter'.
+# ** Warning: (vsim-3722) C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/.test/tb.v(27): [TFMPC] - Missing connection for port 'red_freq'.
+# ** Warning: (vsim-3722) C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/.test/tb.v(27): [TFMPC] - Missing connection for port 'green_freq'.
+# ** Warning: (vsim-3722) C:/Users/shiva/Downloads/Desktop/eb_2478_task1b/t1b_cd_fd/.test/tb.v(27): [TFMPC] - Missing connection for port 'blue_freq'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 ms
+# Error(s) encountered, please check your design!
+# End time: 17:00:26 on Oct 08,2024, Elapsed time: 0:08:52
+# Errors: 0, Warnings: 5

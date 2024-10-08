@@ -1,0 +1,7 @@
+
+State Machine - |t1b_cd_fd|state
+Name state.F_3 state.F_2 state.F_1 state.F_0 
+state.F_0 0 0 0 0 
+state.F_1 0 0 1 1 
+state.F_2 0 1 0 1 
+state.F_3 1 0 0 1 
