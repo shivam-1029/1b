@@ -10,50 +10,50 @@ z2
 cModel Technology
 Z0 dC:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/simulation/modelsim
 vt1b_cd_fd
-Z1 !s110 1728451873
+!s110 1729085685
 !i10b 1
-!s100 4al]<oKeTiUDQ@14Fzn^F0
-Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IDRSn1`UZ:5RjoJ13M:l]30
-Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s100 R4EaO^AN`3ko>>YQEU;342
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?Di6TchbEYPmZHcMPbXE_2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1728386459
+w1729085617
 8C:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/code/t1b_cd_fd.v
 FC:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/code/t1b_cd_fd.v
 !i122 0
-L0 2 127
-Z4 OV;L;2020.1;71
+L0 2 129
+Z3 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1728451873.000000
+!s108 1729085685.000000
 !s107 C:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/code/t1b_cd_fd.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/code|C:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/code/t1b_cd_fd.v|
 !i113 1
-Z6 o-vlog01compat -work work
+Z4 o-vlog01compat -work work
 !s92 -vlog01compat -work work {+incdir+C:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/code}
-Z7 tCvgOpt 0
+Z5 tCvgOpt 0
 vtb
-R1
+!s110 1729085686
 !i10b 1
-!s100 0e[?M[[On1b;9Fnk``GZV1
+!s100 Mh72djThcncbXJ;d?I?KX0
+R1
+IZ5QURA3@72bbV6VfB_E2<1
 R2
-InjR^T:Y;MzQ^6GQ[Km0dj2
-R3
 R0
-w1728384619
+w1729036794
 8C:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/.test/tb.v
 FC:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/.test/tb.v
 !i122 1
-L0 4 105
-R4
+L0 4 110
+R3
 r1
 !s85 0
 31
-R5
+!s108 1729085686.000000
 !s107 C:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/.test/tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/.test|C:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/.test/tb.v|
 !i113 1
-R6
+R4
 !s92 -vlog01compat -work work {+incdir+C:/Users/shiva/Downloads/Desktop/e yantra/1b/t1b_cd_fd/.test}
-R7
+R5

@@ -67,30 +67,32 @@ always @(posedge clk_1MHz) begin
                     end
 						  
 						  
-                    F_1: begin
-						  // Blue Filter: Store frequency, perform color detection, and move to Clear Filter (2)
-							blue_freq <= pulse_counter;
-							
-									// Perform color detection after Blue Filter
-										if (red_freq >= green_freq && red_freq >= blue_freq) begin
-											color <= 1;  // Red
-										end else if (green_freq >= red_freq && green_freq >= blue_freq ) begin
-											color <= 2;  // Green
-										end else if (blue_freq >= red_freq && blue_freq >= green_freq ) begin
-											color <= 3;  // Blue
-										end else begin
-											color <= 0;  // Default/Unknown (including the case where all frequencies are equal)
-										end	
-					 
-                        filter <= F_2;   // Apply filter 2
-                        state <= F_2;    // Move to next filter (2)	
-                    end
+                   F_1: begin
+								 // Blue Filter: Store frequency, then perform color detection
+								 blue_freq <= pulse_counter;  // Update blue_freq with the current pulse_counter value
+								 
+								 // Perform color detection after Blue Filter
+								 if (pulse_counter >= red_freq && pulse_counter >= green_freq) begin
+									  color <= 3;  // Blue
+								 end else if (red_freq >= pulse_counter && red_freq >= green_freq) begin
+									  color <= 1;  // Red
+								 end else if (green_freq >= red_freq && green_freq >= pulse_counter) begin
+									  color <= 2;  // Green
+								 end else begin
+									  color <= 0;  // Default/Unknown (including the case where all frequencies are equal)
+								 end
+								 
+								 filter <= F_2;   // Apply filter 2
+								 state <= F_2;    // Move to next filter (2)    
+							end
 						  
 						  
 						  F_2: begin
 						  //clear filter: for 1us 
 								filter <= F_3;   // Apply filter 3
 								state <= F_3;		//move to next state filter(3)
+								
+									
 							end
                 endcase
 					 
@@ -113,7 +115,7 @@ end
 always @(posedge cs_out) begin
         
     if (enable_counter != prev_enable_counter) begin
-	 		   prev_enable_counter <= enable_counter;
+	 		  prev_enable_counter <= enable_counter;
 	
         pulse_counter <= 0;  // Reset pulse counter when enable_counter is switched
     end else begin

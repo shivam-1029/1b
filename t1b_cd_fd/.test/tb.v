@@ -25,14 +25,19 @@ integer fw;
 integer tp, k, l, m, counter;
 
 t1b_cd_fd uut (
-    .clk_1MHz(clk_1MHz), .cs_out(cs_out),
-    .filter(filter), .color(color),
+    .clk_1MHz(clk_1MHz), 
+    .cs_out(cs_out),
+    .filter(filter), 
+    .color(color),
     .pulse_counter(pulse_counter),   // Connect pulse_counter
     .enable_counter(enable_counter), // Connect enable_counter
     .state_prev(state_prev),         // Connect state_prev
-    .timer_500us(timer_500us)        // Connect timer_500us
+    .timer_500us(timer_500us),       // Connect timer_500us
+    .prev_enable_counter(prev_enable_counter), // Connect prev_enable_counter
+    .red_freq(red_freq),             // Connect red_freq
+    .green_freq(green_freq),         // Connect green_freq
+    .blue_freq(blue_freq)            // Connect blue_freq
 );
-
 initial begin
     clk_1MHz = 0; exp_filter = 2; fw = 0;
     exp_color = 0; error_count = 0; i = 0;
