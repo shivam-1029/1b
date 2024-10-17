@@ -1,0 +1,64 @@
+# Backup files
+*.bak
+
+# Configuration database and header files
+*.cnf.cdb
+*.cnf.hdb
+
+# Intermediate or auto-generated XML files
+*.xml
+
+# Comparison and keypoint files
+*.cmp
+*.cmp_merge.kpt
+
+# Log and report files
+*.logdb
+*.html
+*.txt
+*.rpt
+
+# Map and auxiliary files
+*.amdb
+*.bpm
+*.cdb
+*.map.*
+
+# Backup header files
+*.bb.hdb
+
+# Quartus message files
+*.qmsg
+
+# Quartus Project and Output Files
+db/
+output_files/
+incremental_db/
+simulation/
+*.qws
+*.sof
+*.jic
+*.pof
+
+# Temporary and cache files
+*.temp
+*.tmp
+*~
+.cache/
+
+# Synthesis tool output
+*.sdc
+*.qdf
+*.done
+
+# Compiled binaries and debug files
+*.obj
+*.elf
+*.hex
+*.bin
+
+# Version control metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
